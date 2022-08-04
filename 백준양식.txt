@@ -1,0 +1,19 @@
+// 답 제출 시 '/dev/stdin' 으로 경로 수정해야함.
+var fs = require('fs');
+var input = fs.readFileSync('/dev/stdin').toString().split(' ');
+var a = parseInt(input[0]);
+var b = parseInt(input[1]);
+console.log(a + b);
+
+
+var fs = require('fs');
+var input = fs.readFileSync('/dev/stdin').toString().split('\n');
+ 
+var line0 = input[0].split(' ');
+var line1 = input[1].split(' ');
+var line2 = input[2].split(' ');
+...
+
+// 사용중인 양식들
+// 문자열로 예제 받기
+const input = fs.readFileSync("./예제.txt").toString().split("");
